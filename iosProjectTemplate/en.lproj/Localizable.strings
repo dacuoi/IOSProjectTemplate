@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iosProjectTemplate
+
+  Created by tranquangson on 2/27/19.
+  Copyright © 2019 tranquangson. All rights reserved.
+*/
+
+"enter_your_username" = "Enter your username";
+"enter_your_password" = "Enter your password";

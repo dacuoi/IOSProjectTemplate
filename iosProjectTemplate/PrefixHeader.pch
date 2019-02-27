@@ -4,6 +4,8 @@
 #import <UIKit/UIKit.h>
 //Contants
 #import "Constants.h"
+//Core Data
+#import "UserDTO.h"
 //Utils
 #import "Utils.h"
 

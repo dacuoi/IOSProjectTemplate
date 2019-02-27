@@ -159,8 +159,10 @@ AppService* appService = nil;
                 int code = [dictData[@"code"] intValue];
                 if(code == 0){
                     NSDictionary *dictData = responseObject[@"data"];
+                    UserDTO *user = [[UserDTO alloc] init];
+                    [user updateInfo_login:dictData];
                     //
-                    modelEvent.modelData = dictData;
+                    modelEvent.modelData = user;
                 }
                 else{
                     modelEvent.modelCode = code;

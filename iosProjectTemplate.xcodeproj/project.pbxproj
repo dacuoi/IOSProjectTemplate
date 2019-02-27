@@ -39,6 +39,7 @@
 		8416EA3C222671EB001820D5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416EA26222671EB001820D5 /* AFHTTPRequestOperation.m */; };
 		8416EA3D222671EB001820D5 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416EA28222671EB001820D5 /* AFNetworkReachabilityManager.m */; };
 		8416EA3E222671EB001820D5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416EA29222671EB001820D5 /* AFSecurityPolicy.m */; };
+		8416EA4222267A68001820D5 /* UserDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416EA4122267A68001820D5 /* UserDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,8 @@
 		8416EA28222671EB001820D5 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		8416EA29222671EB001820D5 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		8416EA2A222671EB001820D5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8416EA4022267A68001820D5 /* UserDTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDTO.h; sourceTree = "<group>"; };
+		8416EA4122267A68001820D5 /* UserDTO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDTO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +235,7 @@
 		8416E9F5222671AB001820D5 /* ModelData */ = {
 			isa = PBXGroup;
 			children = (
+				8416EA3F22267A41001820D5 /* UserData */,
 				8416E9F6222671AB001820D5 /* ModelEvent */,
 			);
 			path = ModelData;
@@ -307,6 +311,15 @@
 				8416EA2A222671EB001820D5 /* AFHTTPSessionManager.h */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		8416EA3F22267A41001820D5 /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				8416EA4022267A68001820D5 /* UserDTO.h */,
+				8416EA4122267A68001820D5 /* UserDTO.m */,
+			);
+			path = UserData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +401,7 @@
 				8416E9FF222671C0001820D5 /* AppService.m in Sources */,
 				8416E9FB222671AB001820D5 /* BaseModelEvent.m in Sources */,
 				8416EA30222671EB001820D5 /* UIWebView+GUIFixes.m in Sources */,
+				8416EA4222267A68001820D5 /* UserDTO.m in Sources */,
 				8416E9C522264BE9001820D5 /* main.m in Sources */,
 				8416EA34222671EB001820D5 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				8416EA2E222671EB001820D5 /* UIProgressView+AFNetworking.m in Sources */,

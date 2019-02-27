@@ -92,9 +92,9 @@
 
 - (void)receiveDataFromModel: (BaseModelEvent*) modelEvent{
     //
-    if([modelEvent.modelData isKindOfClass:[NSDictionary class]]){
-        NSDictionary *dictUser = modelEvent.modelData;
-        NSLog(@"%@",dictUser);
+    if([modelEvent.modelData isKindOfClass:[UserDTO class]]){
+        UserDTO *userDTO = modelEvent.modelData;
+        NSLog(@"%@",userDTO);
     }
     else{
         NSLog(@"error");
